@@ -14,16 +14,17 @@ body {
 header {
     background-color: #000;
     width: 100%;
-    height: 100px;
+    height: 140px;
 }
 
 .header_logo {
-    margin-left: 2%;    
+    margin-left: 2%;
 }
 
 .header_logo img {
     width: 10%;
     height: 10%;
+    border-radius: 50%;    
 }
 
 footer {
