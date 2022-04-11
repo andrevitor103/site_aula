@@ -15,16 +15,21 @@ header {
     background-color: #000;
     width: 100%;
     height: 140px;
+    background-image: url('churrasco.jpeg');
+    object-fit: cover;
 }
 
 .header_logo {
-    margin-left: 2%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .header_logo img {
-    width: 10%;
+    width: 14%;
     height: 10%;
-    border-radius: 50%;    
+    border-radius: 50%;
 }
 
 footer {
@@ -32,11 +37,13 @@ footer {
     width: 100%;
     min-height: 100px;
     color: #fff;
+    background-image: url('churrasco.jpeg');
 }
 
 .footer_items {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -51,10 +58,11 @@ footer {
 
 .cards {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 .card {
@@ -141,4 +149,11 @@ footer {
     font-size: 14px;
     padding: 8px;
     border-radius: 10%;
+}
+
+.footer_redes img { 
+    display: block; 
+    width: 4%;
+    margin: 1% 0%;
+    cursor: pointer;
 }
